@@ -26,11 +26,11 @@ export EXTRA_CMD="export OF_MAINTAINER=ismasrull"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
-export OF_USE_LATEST_MAGISK=true
+export OF_USE_LATEST_MAGISK=false
 
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
 export USE_CCACHE=1
-export CCACHE_SIZE="100G"
+export CCACHE_SIZE="50G"
 export CCACHE_DIR="$HOME/work/.ccache"
 export J_VAL=16
