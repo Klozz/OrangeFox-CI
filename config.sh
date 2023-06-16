@@ -22,7 +22,7 @@ DEPS=(
 )
 
 # Extra Command
-export EXTRA_CMD="export OF_MAINTAINER=ismasrull"
+export EXTRA_CMD="export OF_MAINTAINER=ismasrulls"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
