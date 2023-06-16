@@ -21,7 +21,7 @@ fi
 
 # Set-up ccache
 if [ -z "$CCACHE_SIZE" ]; then
-    ccache -M 10G
+    ccache -M 100G
 else
     ccache -M ${CCACHE_SIZE}
 fi
